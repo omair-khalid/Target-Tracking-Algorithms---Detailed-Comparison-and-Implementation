@@ -85,9 +85,6 @@ for k = 1:timestep
     
     M(k) = getframe;
     
-%     frame = getframe(gcf);
-%     writeVideo(writerObj, frame);
     set(h,'Visible','off');
 end
 
-% close(writerObj);
